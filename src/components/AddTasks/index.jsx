@@ -23,6 +23,8 @@ export function AddTasks() {
   function isTaskCompleted(valor) {
     if (valor === true) return setNumberTaskCompleted(numberTaskCompleted + 1)
     if (valor === false ) return setNumberTaskCompleted(numberTaskCompleted - 1)
+
+
   }
 
   function handleKeyDown(){
@@ -31,13 +33,13 @@ export function AddTasks() {
     }
   }
 
-  function deleteTask(content){
+  function deleteTask(content, valor){
     const newListTask = listTask.filter(task=>{
       return task !== content
     })
     
     setListTask(newListTask)
-    if(numberTaskCompleted !== 0 )setNumberTaskCompleted(numberTaskCompleted - 1)
+    if(valor === false && numberTaskCompleted !== 0 )setNumberTaskCompleted(numberTaskCompleted - 1)
   }
 
   return (

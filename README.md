@@ -1,8 +1,18 @@
-# React + Vite
+<div style="display: flex; justify-content: center; align-items: center; gap: 4px">
+  
+  # Todo 
+  <img style="margin-top:-22px" src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f5/Eo_circle_purple_white_checkmark.svg/2048px-Eo_circle_purple_white_checkmark.svg.png" alt="Logo do check" width="25" height="25">
+</div>
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+<p style="font-size: 16px"> Todo é o primeiro desafio da trilha de ReactJS do Ignite, para realizar esse desafio usamos de vários conceitos importantes aprendidos do ReactJS durante as aulas, conceitos de estados, imutabilidade do estado, listas e chaves no ReactJS, propriedades, componentização entre outros.</p>
 
-Currently, two official plugins are available:
+<h3>📌Visão geral do projeto:</h3>
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+![Projeto Food Commerce](./public/gifs/desktop.gif)
+
+<h3>📱Responsivo :</h3>
+
+![Projeto Food Commerce](./public/gifs/mobile.gif)
+
+<h3>🔧 Instalação</h3>
+<p></p>

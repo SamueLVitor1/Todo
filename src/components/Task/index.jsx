@@ -23,7 +23,7 @@ export function Task({ isTaskCreated, content, isTaskCompleted, deleteTask}) {
           <p className={isCheckBoxClicked ? "textThrough" : ""}>{content}</p>
         </div>
 
-        <Trash className='trashImg' onClick={()=>deleteTask(content)}/>
+        <Trash className='trashImg' onClick={()=>deleteTask(content, !isCheckBoxClicked)}/>
       </Container>
     </div>
   )
